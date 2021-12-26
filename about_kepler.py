@@ -7,5 +7,5 @@ def run_about_kepler():
     케플러 계획은 외계 행성이 어머니 항성을 돌면서 항성을 가려 항성의 밝기가 감소하는 것을 감지할 목적으로,
      NASA가 개발한 우주 광도계를 이용하여 9년 6개월 동안 약 53만개의 항성을 발견했습니다.''')
     st.subheader('케플러 망원경의 성과!')
-    img = Image.open('data/image/kepler.png')
+    img = Image.open('data/image/kepler.PNG')
     st.image(img)
